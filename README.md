@@ -13,7 +13,7 @@
 - [Solution Approach](#solution-approach)
 - [Evaluation Metrics](#evaluation-metrics)
 - [Conclusion](#Conclusion)
-- [Further Improvements](#furthe-improvements)
+- [Further Improvements](#further-improvements)
 - [How To Use](#how-to-use)
 - [License](#license)
 - [Author Info](#author-info)
