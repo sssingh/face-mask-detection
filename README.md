@@ -155,7 +155,8 @@ SOFTWARE.
 
 ## Author Info
 
-- Twitter - [@sunilssingh6](https://twitter.com/sunilssingh6)
+Face Mask Detection
+- Twitter - [@_sssingh](https://twitter.com/_sssingh)
 - Linkedin - [Sunil S. Singh](https://linkedin.com/in/sssingh)
 
 [Back To The Top](#face-mask-detection)
