@@ -123,6 +123,7 @@ There are two notebooks provided as part of this repo...
 2. **Model Implementation.ipynb**: This notebook contains functionality for building, training, and evaluating the models. Notebook expects a _data_ folder to be present as the notebook is kept in the exact location. The _data_ folder is expected to contain _processed_dataset_ folder. The best way is to copy the data.zip where the notebook is kept and unzip it. Once the _data_ folder is created, the notebook should be run sequentially from top to bottom. Notebook uses `TensorFlow` as backend and `Keras` frontend for deep-learning models.
 
 ## License
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 
 ## Get in touch
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/sssingh)
