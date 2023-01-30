@@ -30,7 +30,6 @@ Face masks have proven to be very effective against COVID-19 spread. However, de
 
 _This was my thesis for M.S. (Data Science) program. If you are interested, you can access the complete thesis report from [here](https://drive.google.com/file/d/12uLJ9UPAKGBc2Pv160RYt4SEJ5NS4_ES/view?usp=sharing) and thesis defense presentation from [here](https://docs.google.com/presentation/d/1vzMyfzwsXxFYMCvwD3VAkKmPKQ6Py9YF/edit?usp=sharing&ouid=117056812088365898221&rtpof=true&sd=true)_
 
----
 ## Objective
 The project aims to design, implement and compare the multitude of machine learning models utilizing modern ML and DL techniques to discriminate between the images of human faces wearing or not wearing facemasks. Following are the main objectives:
 - To process the input raw images to get them ready for the model building
@@ -42,7 +41,6 @@ The project aims to design, implement and compare the multitude of machine learn
 - To implement and train DL architectures from the ground-up but coupled with a classic learning model (e.g., SVM) as the classifier (i.e., hybrid network) to classify images of the people wearing or not wearing facemasks.
 - To test, compare and interpret the model performance results based on various performance metrics.
 
----
 ## Dataset
 Publicly available [Real-World-Masked-Face-Dataset (RFMD)](https://github.com/X-zhangyang/Real-World-Masked-Face-Dataset) dataset and [Simulated-World-Masked-Face-Dataset (SFMD)](https://drive.google.com/uc?id=1q0ibaoFVEmXrjlk3-Oyx2oYR8HpVy6jc&export=downloadand) dataset were used for model training, validation, and evaluation. 
 - The RFMD dataset contains 90,468 images of real-world human faces not wearing any facemask and 5,017 images of faces wearing facemasks. <br><br>
