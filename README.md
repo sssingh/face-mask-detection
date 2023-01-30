@@ -1,24 +1,29 @@
 # Face Mask Detection
+Comparitive study of face-mask detection using deep-learning, shallow-learning and hybrid techniques.
 
-![](images/facemask-unsplash.jpg)
+<img src="images/facemask-unsplash.jpg" width="800" height="300" />
 
-> ### Face mask detection using deep learning techniques.
----
+## Features
+⚡Binary Classification
+⚡Cutsom CNN
+⚡SVM Classifier
+⚡Transfer Learning CNN - ResNet50
+⚡Transfer Learning CNN - MobileNetV2
+⚡Fully Connected Classifier
+⚡Tensorflow/Keras
 
 ## Table of Contents
-
 - [Introduction](#introduction) 
 - [Objective](#objective)
 - [Dataset](#dataset)
-- [Solution Approach](#solution-approach)
 - [Evaluation Metrics](#evaluation-metrics)
+- [Solution Approach](#solution-approach)
 - [Conclusion](#Conclusion)
 - [Further Improvements](#further-improvements)
 - [How To Use](#how-to-use)
 - [License](#license)
-- [Author Info](#author-info)
-
----
+- [Get in touch](#get-in-touch)
+- [Credits](#credits)
 
 ## Introduction
 Face masks have proven to be very effective against COVID-19 spread. However, despite facemasks being a very effective preventive measure, society has apparent resistance. However, the seriousness of the COVID-19 spread, authorities have started monitoring and enforcing the usage of facemasks in public places in many countries. But it's almost impossible to do this manually. In recent years, the rise of machine-learning/deep-learning techniques (ML/DL) presents a huge opportunity to fight the pandemic through cutting-edge technology. This project aims to implement, test, compare multiple ML/DL models for automatic facemask detection. 
@@ -53,7 +58,17 @@ The data.zip contains the main parent folder 'data.' Inside the 'data' folder, t
 2. _flatten_raw_dataset_: This is the raw_dataset after flattening individual sub-folders within the raw_dataset.
 3. _processed_dataset_: This is the processed dataset. This dataset is used for model training, validation, and testing.
 
----
+## Evaluation Metrics
+The metrics below were recorded for each of the six models we build during training and evaluation phases...
+* Number of Model Parameters
+* Model Size (Footprint)
+* Training Time
+* Prediction Speed/Time
+* Accuracy
+* Precision
+* Recall
+* Area Under the Curve and ROC (AUC-ROC)
+
 ## Solution Approach
 
 ### Data Preprocessing
@@ -86,18 +101,6 @@ Various models were built using transfer learning (ResNet50, MobileNetV2, etc.) 
 #### 6. Custom Built - CNN & SVM Classifier
 This network uses the same custom CNN architecture as above but instead of a fully-connected classifier, it uses SVM.
 
----
-## Evaluation Metrics
-The metrics below were recorded for each of the six models we build during training and evaluation phases...
-* Number of Model Parameters
-* Model Size (Footprint)
-* Training Time
-* Prediction Speed/Time
-* Accuracy
-* Precision
-* Recall
-* Area Under the Curve and ROC (AUC-ROC)
-
 ## Conclusion
 The implemented models were compared and ranked based on the evaluations metrics recorded during the model training and evaluation phases. Models are ranked from 1 to 6 (1 being best and 6 being the worst) against each of the evaluation metrics recorded and based on that final conclusion is drawn.
 <br><br>
@@ -114,51 +117,20 @@ Following are some of the suggested improvements that one can experiment with…
 * MaxPooling from initial layers can be removed to increase the feature space of input images further.
 * Shallow learning classifiers other than SVM can be hooked at the end of Custom CNN for image classifications. XGBoost [50] is one of the latest entrants that can be experimented with instead of an SVM classifier.
 
----
 ## How To Use
-
-
 There are two notebooks provided as part of this repo...
 1. **Data Preprocessing.ipynb**: This notebook contains functionality for data preprocessing. The raw data is first flattened, images are re-scaled, and then the data set is balanced to produce a preprocessed dataset used for modeling. This note is required to be run only once on the raw dataset. Since the preprocessed dataset is included in data.zip, there is no need to rerun this notebook.
 2. **Model Implementation.ipynb**: This notebook contains functionality for building, training, and evaluating the models. Notebook expects a _data_ folder to be present as the notebook is kept in the exact location. The _data_ folder is expected to contain _processed_dataset_ folder. The best way is to copy the data.zip where the notebook is kept and unzip it. Once the _data_ folder is created, the notebook should be run sequentially from top to bottom. Notebook uses `TensorFlow` as backend and `Keras` frontend for deep-learning models.
 
----
-## Credits
-- Title photo by [Adam Nieścioruk on unsplash](https://unsplash.com/@adamsky1973?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
----
-
 ## License
 
-MIT License
+## Get in touch
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/sssingh)
+[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/_sssingh)
+[![website](https://img.shields.io/badge/website-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://datamatrix-ml.com/)
 
-Copyright (c) [2021] [Sunil S. Singh]
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the software, and to permit persons to whom the software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
----
-
-## Author Info
-
-Face Mask Detection
-- Twitter - [@_sssingh](https://twitter.com/_sssingh)
-- Linkedin - [Sunil S. Singh](https://linkedin.com/in/sssingh)
+## Credits
+- Title photo by [Adam Nieścioruk on unsplash](https://unsplash.com/@adamsky1973?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
 [Back To The Top](#face-mask-detection)
-
----
