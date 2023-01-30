@@ -4,13 +4,13 @@ Comparitive study of face-mask detection using deep-learning, shallow-learning a
 <img src="images/facemask-unsplash.jpg" width="800" height="300" />
 
 ## Features
-⚡Binary Classification
-⚡Cutsom CNN
-⚡SVM Classifier
-⚡Transfer Learning CNN - ResNet50
-⚡Transfer Learning CNN - MobileNetV2
-⚡Fully Connected Classifier
-⚡Tensorflow/Keras
+⚡Binary Classification  
+⚡Cutsom CNN  
+⚡SVM Classifier  
+⚡Transfer Learning CNN - ResNet50  
+⚡Transfer Learning CNN - MobileNetV2  
+⚡Fully Connected Classifier  
+⚡Tensorflow/Keras  
 
 ## Table of Contents
 - [Introduction](#introduction) 
