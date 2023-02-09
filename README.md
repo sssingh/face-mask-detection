@@ -84,20 +84,19 @@ Various models were built using transfer learning (ResNet50, MobileNetV2, etc.) 
 #### 1. Transfer learning - ResNet50 & SVM Classifier (Hybrid)
 <img src="https://github.com/sssingh/face-mask-detection/blob/master/images/rn50svm.png?raw=true" alt="">
 <br><br>
-#### 1. Transfer learning - ResNet50 & SVM Classifier (Hybrid)
-#### 2. Transfer learning - MobileNetV2 & SVM Classifier (Hybrid)
+### 2. Transfer learning - MobileNetV2 & SVM Classifier (Hybrid)
 <img src="https://github.com/sssingh/face-mask-detection/blob/master/images/mnv2svm.png?raw=true" alt="">
 <br><br>
-#### 3. Transfer learning - ResNet50 & FC Classifier (Pure)
+### 3. Transfer learning - ResNet50 & FC Classifier (Pure)
 <img src="https://github.com/sssingh/face-mask-detection/blob/master/images/rn50fc.png?raw=true" alt="">
 <br><br>
-#### 4. Transfer learning - MobileNetV2 & FC Classifier (Pure)
+### 4. Transfer learning - MobileNetV2 & FC Classifier (Pure)
 <img src="https://github.com/sssingh/face-mask-detection/blob/master/images/mnv2svm.png?raw=true" alt="">
 <br><br>
-#### 5. Custom Built - CNN & FC Classifier
+### 5. Custom Built - CNN & FC Classifier
 <img src="https://github.com/sssingh/face-mask-detection/blob/master/images/rn50fc.png?raw=true" alt="">
 <br><br>
-#### 6. Custom Built - CNN & SVM Classifier
+### 6. Custom Built - CNN & SVM Classifier
 This network uses the same custom CNN architecture as above but instead of a fully-connected classifier, it uses SVM.
 
 ## Conclusion
