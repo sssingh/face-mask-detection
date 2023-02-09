@@ -44,11 +44,11 @@ The project aims to design, implement and compare the multitude of machine learn
 ## Dataset
 Publicly available [Real-World-Masked-Face-Dataset (RFMD)](https://github.com/X-zhangyang/Real-World-Masked-Face-Dataset) dataset and [Simulated-World-Masked-Face-Dataset (SFMD)](https://drive.google.com/uc?id=1q0ibaoFVEmXrjlk3-Oyx2oYR8HpVy6jc&export=downloadand) dataset were used for model training, validation, and evaluation. 
 - The RFMD dataset contains 90,468 images of real-world human faces not wearing any facemask and 5,017 images of faces wearing facemasks. <br><br>
-![](images/RFMD_sample.png)
+<img src="https://github.com/sssingh/face-mask-detection/blob/master/images/RFMD_sample.png?raw=true">
 <br><br>
 - The SFMD dataset contains 690 faces stimulated to appear as wearing facemasks and 686 images of faces not wearing any facemask. Figure 8 shows the sample mask and no mask images from the RFMD dataset. 
 <br><br>
-![](images/SFMD_sample.png)
+<img src="https://github.com/sssingh/face-mask-detection/blob/master/images/SFMD_sample.png?raw=true">
 <br><br>
 The raw and fully processed dataset (data.zip, 1.5GB zip file) can be downloaded from  [here](https://drive.google.com/file/d/1THtv0JKDMKhkGgo-W7c-EtZGZ4MdnDgs/view?usp=sharing)
 The data.zip contains the main parent folder 'data.' Inside the 'data' folder, there are three sub-folders:
@@ -84,6 +84,7 @@ Various models were built using transfer learning (ResNet50, MobileNetV2, etc.) 
 #### 1. Transfer learning - ResNet50 & SVM Classifier (Hybrid)
 <img src="https://github.com/sssingh/face-mask-detection/blob/master/images/rn50svm.png?raw=true" alt="">
 <br><br>
+#### 1. Transfer learning - ResNet50 & SVM Classifier (Hybrid)
 #### 2. Transfer learning - MobileNetV2 & SVM Classifier (Hybrid)
 <img src="https://github.com/sssingh/face-mask-detection/blob/master/images/mnv2svm.png?raw=true" alt="">
 <br><br>
