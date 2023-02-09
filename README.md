@@ -51,8 +51,8 @@ Publicly available [Real-World-Masked-Face-Dataset (RFMD)](https://github.com/X-
 <img src="https://github.com/sssingh/face-mask-detection/blob/master/images/SFMD_sample.png?raw=true">
 <br><br>
 The raw and fully processed dataset (data.zip, 1.5GB zip file) can be downloaded from  [here](https://drive.google.com/file/d/1THtv0JKDMKhkGgo-W7c-EtZGZ4MdnDgs/view?usp=sharing)
-The data.zip contains the main parent folder 'data.' Inside the 'data' folder, there are three sub-folders:  
-1. raw_dataset: This is the original dataset taken from publicly available RFMD and SFMD datasets. Original images from RFMD and SFMD are combined to create raw_dataset.   
+The data.zip contains the main parent folder 'data.' Inside the 'data' folder, there are three sub-folders...  
+1. raw_dataset: This is the original dataset taken from publicly available RFMD and SFMD datasets. Original images from RFMD and SFMD are combined to create raw_dataset.  
 2. flatten_raw_dataset: This is the raw_dataset after flattening individual sub-folders within the raw_dataset.  
 3. processed_dataset: This is the processed dataset. This dataset is used for model training, validation, and testing.
 
