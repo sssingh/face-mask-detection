@@ -85,10 +85,10 @@ Various models were built using transfer learning (ResNet50, MobileNetV2, etc.) 
 <img src="https://github.com/sssingh/face-mask-detection/blob/master/images/rn50svm.png?raw=true" alt="">
 <br><br>
 #### 2. Transfer learning - MobileNetV2 & SVM Classifier (Hybrid)
-<img src="https://github.com/sssingh/face-mask-detection/blob/master/images/mnv2svm.png?raw=true">
+<img src="https://github.com/sssingh/face-mask-detection/blob/master/images/mnv2svm.png?raw=true" alt="">
 <br><br>
 #### 3. Transfer learning - ResNet50 & FC Classifier (Pure)
-<img src="https://github.com/sssingh/face-mask-detection/blob/master/images/rn50fc.png?raw=true">
+<img src="https://github.com/sssingh/face-mask-detection/blob/master/images/rn50fc.png?raw=true" alt="">
 <br><br>
 #### 4. Transfer learning - MobileNetV2 & FC Classifier (Pure)
 <img src="https://github.com/sssingh/face-mask-detection/blob/master/images/mnv2svm.png?raw=true" alt="">
