@@ -1,7 +1,7 @@
 # Face Mask Detection
 Comparitive study of face-mask detection using deep-learning, shallow-learning and hybrid techniques.
 
-<img src="images/facemask-unsplash.jpg" width="800" height="300" />
+<img src="https://github.com/sssingh/face-mask-detection/blob/master/images/facemask-unsplash.jpg?raw=true" width="800" height="300">
 
 ## Features
 ⚡Binary Classification  
@@ -82,7 +82,7 @@ Before we start building the models, the raw data needs to be preprocessed to ge
 Various models were built using transfer learning (ResNet50, MobileNetV2, etc.) and from scratch. Under both of these categories, further sub-configuration of the model such as a _pure_ network (CNN as a base with fully connected layer (FC) as a classifier layer), a _hybrid_ network (CNN as a feature extractor and shallow learning model such as an SVM is used as a classifier) were implemented.
 <br><br>
 #### 1. Transfer learning - ResNet50 & SVM Classifier (Hybrid)
-![](images/rn50svm.png)
+<img src="https://github.com/sssingh/face-mask-detection/blob/master/images/rn50svm.png?raw=true" alt="">
 <br><br>
 #### 2. Transfer learning - MobileNetV2 & SVM Classifier (Hybrid)
 ![](images/mnv2svm.png)
@@ -91,10 +91,10 @@ Various models were built using transfer learning (ResNet50, MobileNetV2, etc.) 
 ![](images/rn50fc.png)
 <br><br>
 #### 4. Transfer learning - MobileNetV2 & FC Classifier (Pure)
-![](images/mnv2fc.png)
+<img src="https://github.com/sssingh/face-mask-detection/blob/master/images/mnv2svm.png?raw=true" alt="">
 <br><br>
 #### 5. Custom Built - CNN & FC Classifier
-![](images/cnnfc.png)
+<img src="https://github.com/sssingh/face-mask-detection/blob/master/images/rn50fc.png?raw=true" alt="">
 <br><br>
 #### 6. Custom Built - CNN & SVM Classifier
 This network uses the same custom CNN architecture as above but instead of a fully-connected classifier, it uses SVM.
@@ -102,11 +102,11 @@ This network uses the same custom CNN architecture as above but instead of a ful
 ## Conclusion
 The implemented models were compared and ranked based on the evaluations metrics recorded during the model training and evaluation phases. Models are ranked from 1 to 6 (1 being best and 6 being the worst) against each of the evaluation metrics recorded and based on that final conclusion is drawn.
 <br><br>
-![](images/eval_results.png)
+<img src="https://github.com/sssingh/face-mask-detection/blob/master/images/eval_results.png?raw=true" alt="">
 <br><br>
-![](images/conclusion1.png)
+<img src="https://github.com/sssingh/face-mask-detection/blob/master/images/conclusion1.png?raw=true" alt="">
 <br><br>
-![](images/conclusion2.png)
+<img src="https://github.com/sssingh/face-mask-detection/blob/master/images/conclusion2.png?raw=true" alt="">
 
 ## Further Improvements
 Following are some of the suggested improvements that one can experiment with…
