@@ -28,7 +28,7 @@ Comparitive study of face-mask detection using deep-learning, shallow-learning a
 ## Introduction
 Face masks have proven to be very effective against COVID-19 spread. However, despite facemasks being a very effective preventive measure, society has apparent resistance. However, the seriousness of the COVID-19 spread, authorities have started monitoring and enforcing the usage of facemasks in public places in many countries. But it's almost impossible to do this manually. In recent years, the rise of machine-learning/deep-learning techniques (ML/DL) presents a huge opportunity to fight the pandemic through cutting-edge technology. This project aims to implement, test, compare multiple ML/DL models for automatic facemask detection. 
 
-_This was my thesis for M.S. (Data Science) program. If you are interested, you can access the complete thesis report from [here](https://drive.google.com/file/d/12uLJ9UPAKGBc2Pv160RYt4SEJ5NS4_ES/view?usp=sharing) and thesis defense presentation from [here](https://docs.google.com/presentation/d/1vzMyfzwsXxFYMCvwD3VAkKmPKQ6Py9YF/edit?usp=sharing&ouid=117056812088365898221&rtpof=true&sd=true)_
+*This was my thesis for M.S. (Data Science) program. If you are interested, you can access the complete thesis report from [here](https://drive.google.com/file/d/12uLJ9UPAKGBc2Pv160RYt4SEJ5NS4_ES/view?usp=sharing) and thesis defense presentation from [here](https://docs.google.com/presentation/d/1vzMyfzwsXxFYMCvwD3VAkKmPKQ6Py9YF/edit?usp=sharing&ouid=117056812088365898221&rtpof=true&sd=true)*
 
 ## Objective
 The project aims to design, implement and compare the multitude of machine learning models utilizing modern ML and DL techniques to discriminate between the images of human faces wearing or not wearing facemasks. Following are the main objectives:
@@ -85,10 +85,10 @@ Various models were built using transfer learning (ResNet50, MobileNetV2, etc.) 
 <img src="https://github.com/sssingh/face-mask-detection/blob/master/images/rn50svm.png?raw=true" alt="">
 <br><br>
 #### 2. Transfer learning - MobileNetV2 & SVM Classifier (Hybrid)
-![](images/mnv2svm.png)
+<img src="https://github.com/sssingh/face-mask-detection/blob/master/images/mnv2svm.png?raw=true">
 <br><br>
 #### 3. Transfer learning - ResNet50 & FC Classifier (Pure)
-![](images/rn50fc.png)
+<img src="https://github.com/sssingh/face-mask-detection/blob/master/images/rn50fc.png?raw=true">
 <br><br>
 #### 4. Transfer learning - MobileNetV2 & FC Classifier (Pure)
 <img src="https://github.com/sssingh/face-mask-detection/blob/master/images/mnv2svm.png?raw=true" alt="">
